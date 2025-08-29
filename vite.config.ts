@@ -6,7 +6,7 @@ import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
 export default defineConfig({
 
-  base: "Wavefy",
+  base: "/",
   plugins: [
     react(),
     runtimeErrorOverlay(),
